@@ -1,0 +1,44 @@
+.grades {
+    padding: 0 24px;
+    float: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.grades .grades-module-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: left;
+}
+
+
+.grades .text-red {
+    color: rgb(195, 30, 30) !important;
+}
+
+
+.assignment-edit-online-entry-text {
+    margin-bottom: 0; 
+}
+
+
+.form-select {
+    margin-top: 0; 
+}
+
+.d-flex.flex-row {
+    margin-bottom: 0; /* 如果需要，减少底部外边距 */
+}
+
+/* 减少标题下方的外边距 */
+.assignment-edit-online-entry-text {
+    margin-bottom: 0; /* 或者设为你希望的边距大小 */
+}
+
+/* 减少选择框上方的外边距 */
+#search-students,
+#search-assignments {
+    margin-top: 0; /* 或者设为你希望的边距大小 */
+}

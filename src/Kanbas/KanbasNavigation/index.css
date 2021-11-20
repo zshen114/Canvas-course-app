@@ -1,0 +1,45 @@
+.wd-kanbas-navigation {
+    border-radius: 0 !important;
+    background: black;
+    width: 85px !important;
+    min-height: max(100vh, 100%);
+}
+
+/* Each navigation item in kanbas navigation */
+.wd-kanbas-navigation .list-group-item {
+    background: black;
+    padding: 10px;
+    margin-block: 5px;
+    border: 0;
+    max-width: 100% !important;
+    font-size: 0.9em !important;
+    align-items: center;
+    color: white;
+}
+
+/* Currently active navigation item */
+.wd-kanbas-navigation .list-group-item.active {
+    margin-top: 5px !important;
+    background: white;
+    color: rgb(206, 35, 35);
+}
+
+/* NEU Logo */
+.wd-kanbas-navigation .neu-icon {
+    padding: 0px;
+    margin: 0px;
+    width: 85px;
+    height: 85px;
+}
+
+.wd-kanbas-navigation .wd-icon {
+    font-size: 2em;
+    color: rgb(206, 35, 35);
+}
+
+.wd-kanbas-logo {
+    width: 100%; 
+    margin-bottom: 1rem; 
+   
+}
+

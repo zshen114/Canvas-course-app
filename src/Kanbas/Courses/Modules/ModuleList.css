@@ -1,0 +1,90 @@
+.module-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.module-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.module-item:hover {
+    background-color: #f1f1f1;
+}
+
+.module-icon, .module-title, .module-dropdown, .module-add, .module-menu {
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.module-title {
+    flex-grow: 1;
+    font-weight: 500;
+}
+
+.module-dropdown, .module-add, .module-menu {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.module-dropdown:hover, .module-add:hover, .module-menu:hover {
+    background-color: #e0e0e0;
+}
+
+.module-add {
+    color: #4caf50; /* Green color for the "+" icon */
+}
+
+.module-dropdown {
+    color: #2196f3; /* Blue color for the "v" dropdown icon */
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+}
+
+.list-group-item > div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 580px;
+}
+
+.li-group-item input {
+    flex: 1;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 470px;
+    height: 60px;
+
+}
+
+
+.list-group-item button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.list-group-item button:hover {
+    background-color: #45a049;
+}
+
+.li-group-item {
+    list-style-type: none;
+}

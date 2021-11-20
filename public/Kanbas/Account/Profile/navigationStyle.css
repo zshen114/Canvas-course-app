@@ -1,0 +1,33 @@
+.kanbas-sidebar {
+    /* previously defined styles for kanbas sidebar */
+}
+
+.account-sidebar {
+    width: 195px;
+    margin-left: 22px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.nav-link {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: red;
+    border-left: 4px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px 0;
+}
+
+.nav-link.active {
+    color: black;
+    border-left-color: black;
+    margin-left: 20px;
+}
+
+.wd-float-left { float: left;
+}
+

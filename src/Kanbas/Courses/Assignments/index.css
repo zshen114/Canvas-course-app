@@ -1,0 +1,225 @@
+.wd-assignment-table .list-group-item {
+    border-left: 8px solid green;
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+}
+.wd-assignment-table .list-group-item {
+    border-left: 8px solid green;
+    border-bottom: 1px solid white;
+    padding-left: 20px;
+}
+.wd-assignment-table .list-group-item  a{
+    color: black;
+    text-decoration: none;
+}
+.wd-assignment-table .list-group-item a i{
+    margin: 10px;
+    position: relative;
+    top: -25px;
+}
+.wd-assignment-table .list-group-item a .fa-circle-check{
+    color: green;
+}
+
+.list-group-item {
+    border-radius: 0px;
+    --bs-border-radius: 0px;
+    height: 80px;
+}
+.list-group {
+    border-radius: 0px;
+    --bs-border-radius: 0px;
+}
+
+
+.wd-assignment-table .list-group-item  a h4{
+    margin: 0;
+    padding: 0;
+}
+
+.wd-assignment-table .wd-total{
+
+    font-size: 0.7em;
+}
+
+.wd-assignment-table h2 {
+    border: 1px solid black;
+    margin: 0;
+
+}
+.wd-assignment-table ul {
+    border: 1px solid black;
+    margin: 0;
+    list-style: none;
+    padding: 0px;
+}
+
+.wd-assignment-ellipsis {
+    position: relative;
+    font-size: 2em;
+    top: -10px;
+}
+
+.wd-assignment-header-ellipsis {
+    position: relative;
+    top: 2px;
+}
+
+.wd-assignment-check {
+    position: relative;
+    font-size: 2em;
+    top: -10px;
+    color: green;
+}
+
+.wd-assignment-trash {
+    position: relative;
+    font-size: 2em;
+    top: -10px;
+    cursor: pointer;
+}
+
+.wd-assignment-edit {
+    position: relative;
+    font-size: 2em;
+    top: -10px;
+    cursor: pointer;
+}
+
+.wd-table-header {
+    width: 100%;
+}
+
+.wd-clickable {
+    cursor: pointer;
+}
+
+.wd-delete-confirm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    color: white;
+    z-index: 1;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.692);
+    height: 30%;
+    text-align: center;
+
+}
+
+.assignment-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white !important;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.assignment-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-icon,.header-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-assignment-btn {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.add-assignment-btn:hover {
+    background-color: #2980b9;
+}
+
+.add-group-btn {
+    background-color: #2ecc71;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.add-group-btn:hover {
+    background-color: #27ae60;
+}
+
+.assignment-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #d7d5d5;
+    border-radius: 5px;
+}
+
+.percent-label {
+    padding: 5px 10px;
+    background-color: white;
+    color: rgba(255, 255, 255, 0.798);
+    border-radius: 20px;
+}
+
+/* 添加到你的 CSS 文件中 */
+.btn-light-gray {
+    background-color: #d6dadf !important; /* Bootstrap浅灰色的默认颜色 */
+    color: black !important; /* 一个深色字体颜色 */
+    border-color: #a9abac !important; /* 边框颜色与背景颜色一致 */
+  }
+  
+  /* 如果你还希望鼠标悬停时有变化，可以添加 :hover 伪类 */
+  .btn-light-gray:hover {
+    background-color: #e2e6ea !important; /* 鼠标悬停时的背景颜色变暗 */
+    border-color: #dae0e5 !important; /* 鼠标悬停时的边框颜色 */
+  }
+  
+  .action-buttons {
+    background-color: white; /* 移除背景色 */
+    border: none; /* 移除边框 */
+    padding: 0; /* 移除内边距 */
+  }
+  
+
+  .small-rounded-button {
+    padding: 0.5em 0.5em; /* 减小内边距来缩小按钮 */
+    font-size: 0.875rem; /* 可选：减小字体大小 */
+    border-radius: 20px; /* 添加圆角 */
+    line-height: 2; /* 调整行高以适应较小的按钮尺寸 */
+  }
+  

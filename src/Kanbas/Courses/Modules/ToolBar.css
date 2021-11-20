@@ -1,0 +1,135 @@
+
+
+.btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 600;
+}
+
+
+.btn-accent {
+    background-color: #4CAF50;
+    color: white; /* Modified color to improve readability */
+}
+
+.btn-accent:hover {
+    background-color: #43a047;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.arrow {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+/* ToolBar.css */
+.toolbar {
+    display: flex; /* 使用flex布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: start; /* 从行的开始排列 */
+    flex-wrap: wrap; /* 允许换行 */
+    gap: 10px; /* 按钮之间的间隔 */
+  }
+  
+  .toolbar .btn {
+    padding: 0.25rem 0.5rem; /* 减少按钮的padding，使其变小 */
+    font-size: 0.8rem; /* 减小字体大小 */
+  }
+  
+  .toolbar .btn-danger {
+    margin-left: auto; /* 将这个按钮推到行的末尾 */
+  }
+  
+  .toolbar .dropdown .btn {
+    display: flex; /* 使用flex布局来整合文本和箭头 */
+    align-items: center; /* 垂直居中 */
+  }
+  
+
+  .toolbar .menu {
+    display: none; 
+  }
+  
+  /* 在按钮下方添加分割线 */
+  .toolbar:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* 分割线的颜色 */
+    margin-top: 10px; /* 分割线与按钮之间的间隔 */
+  }
+  
+  /* ToolBar.css */
+.toolbar {
+    /* 移除了display: flex; 不再需要将按钮作为flex子项排列 */
+    padding: 10px; /* 根据需要调整内边距 */
+  }
+  
+  .toolbar .btn,
+  .toolbar .dropdown .btn {
+    margin: 5px; /* 给按钮添加一些外边距，使它们彼此分开 */
+    /* 可以根据需要进一步调整按钮样式 */
+  }
+  
+
+
+  /* 如果你希望保留分割线，可以保留这个样式 */
+  .toolbar hr {
+    margin-top: 10px; /* 分割线与按钮之间的间隔 */
+    border: 0;
+    height: 1px;
+    background-color: #ccc; /* 分割线的颜色 */
+  }
+  
+
+.toolbar-btn {
+    font-size: 1.25rem; 
+    padding: .75rem 1.25rem; 
+  }
+  
+  .fa {
+    vertical-align: middle; 
+  }
+  
+
+  .toolbar-btn svg {
+    width: 2em; 
+    height: 2em; 
+  }
+  
+  /* 调整下拉按钮的箭头图标大小 */
+  .toolbar-btn .arrow {
+    width: 1em; /* 调整箭头图标的宽度 */
+    height: 1em; /* 调整箭头图标的高度 */
+  }
+  
+  /* 调整椭圆图标的大小 */
+  .menu svg {
+    width: 2em; /* 增加菜单图标的宽度 */
+    height: 2em; /* 增加菜单图标的高度 */
+  }
+  

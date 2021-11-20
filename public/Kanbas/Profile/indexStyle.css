@@ -1,0 +1,22 @@
+.red-cross {
+    color: red;
+    font-size: 30px; /* 调整大小 */
+    font-weight: bold;
+}
+
+.col-small{
+    width: 2px
+}
+
+.arrow {
+    font-size: 24px;
+}
+
+.centered-text {
+    text-align: center;
+    display: block; /* 使<label>成为块级元素 */
+}
+
+.wd-float-right{
+    float:right;
+}
