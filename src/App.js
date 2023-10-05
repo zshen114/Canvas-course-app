@@ -11,11 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-<<<<<<< HEAD
           href="../public/kanbas/home.html"
-=======
-          href= "../public/kanbas/home.html"
->>>>>>> 92b7c74736aed8d51ab158d17325303b89c4bba5
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -24,6 +20,4 @@ function App() {
       </header>
     </div>
   );
-}
-
-export default App;
+}export default App;
