@@ -1,0 +1,85 @@
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.overflow-auto {
+    overflow-y: auto;
+    height: 75vh;
+}
+
+.ps-5 {
+    padding-left: 2rem; 
+}
+
+
+.i-green {
+    color: #1f990c; 
+}
+
+
+#moduleBtn {
+    color: white; 
+    background-color: rgb(190, 20, 20);
+    border-color: rgb(190, 20, 20);
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-smaller {
+    font-size: 0.8rem;  
+}
+
+
+.i-green {
+    color: green;
+}
+
+.text-red {
+    color: rgb(190, 20, 20);
+}
+
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-smaller {
+    font-size: 0.8rem; 
+}
+
+.point-time, .lecture-info, .lecture-time {
+    color: #2d3b45;
+    font-size: 12px;
+}
+
+.coming-up {
+    color: #2d3b45;
+    font-weight: 500;
+}
+
+.view-calendar {
+    color: rgb(190, 20, 20);
+    font-size: 12px;
+}
+
+.lecture-title {
+    color: rgb(190, 20, 20);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.more-tasks {
+    color: rgb(190, 20, 20);
+    font-weight: 500;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
+}
+.grade-title {
+    color: rgb(190, 20, 20);
+    font-size: small;
+}

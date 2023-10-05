@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Profile</title>
+    <link href="../../index1.css" rel="stylesheet">
+    <link href="../../screen.css" rel="stylesheet">
+    <link href="grade.css" rel="stylesheet">
+    <link href="../../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="../../../vendors/fontawesome/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Left navigation -->
+        <nav id="kanbas-navigation">
+            <ul class="wd-kanbas-navigator"> 
+                <!-- Navigation -->
+                <li id="nav-header"><i class="fab fa-neos"></i></li>                     
+                <li><a href="../Account/Profile/index.html"><i class="fa fa-user-circle"></i> Account</a></li>
+                <li><a href="../../Dashboard/dashboard.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="../../Courses/Home/home.html" class="selected"><i class="fa fa-book"></i>Courses</a></li>
+                <li><a href="#"><i class="fas fa-calendar-alt"></i>Calendar</a></li>
+                <li><a href="#"><i class="fas fa-envelope-open-text"></i>Inbox</a></li>
+                <li><a href="#"><i class="fa fa-clock"></i>History</a></li>
+                <li><a href="#"><i class="fas fa-desktop"></i>Studio</a></li>
+                <li><a href="#"><i class="fa fa-arrow-right"></i>Commons</a></li>
+                <li><a href="#"><i class="fa fa-question-circle"></i>Help</a></li>
+            </ul>
+        </nav>
+        <!-- Right content -->
+        <div class="right-content">
+            <div id="breadcrumbs" class="breadcrumbs-content">
+                <!-- Breadcrumbs content -->
+                <i class="fas fa-bars red-icon"></i>
+                <p class="course-code">CS5610.11744.202310</p>
+                <i class="fas fa-chevron-right arrow-icon"></i>
+                <p>Grades</p>
+                <hr class="breadcrumb-hr">            
+            </div>
+            <div class="lower-content">
+                <nav id="account-navigation">
+                    <ul>
+                        <li><a href="../../Courses/Home/home.html">Home</a></li>
+                        <li><a href="#">Modules</a></li>
+                        <li><a href="#">Piazza</a></li>
+                        <li><a href="#">Zoom Meetings</a></li>
+                        <li><a href="../../Courses/Assignments/index.html">Assignments</a></li>
+                        <li><a href="#">Quizzes</a></li>
+                        <li><a href="../../Courses/Grades/grades.html" class="active">Grades</a></li>
+                        <li><a href="#">People</a></li>
+                        <li><a href="#">Panopto Video</a></li>
+                        <li><a href="#">Discussions</a></li>
+                        <li><a href="#">Announcements</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Files</a></li>
+                        <li><a href="#">Rubrics</a></li>
+                        <li><a href="#">Outcomes</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Syllabus</a></li>
+                        <li><a href="../../Courses/Settings/courseDetail.html">Settings</a></li>
+
+                    </ul>
+                </nav>
+
+                
+                <div class="row w-100 me-4">
+                    <div class="col-9">
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-outline-secondary mx-1">
+                                <i class="fa fa-file-import"></i> Import
+                            </button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary mx-1">
+                                <i class="fa fa-file-export"></i> Export
+                            </button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary mx-1">
+                                <i class="fas fa-cog"></i>
+                            </button>
+                            
+                        </div><br>
+                    
+                    <!-- Titles and Dropdowns -->
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5>Student</h5>
+                        <h5>Assignment</h5>
+                        <div></div> 
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <select name="student" id="student-dropdown">
+                            <!-- Add your student options here -->
+                            <option value="student1">Search Student</option>
+                            <!-- ... -->
+                        </select>
+                        <select name="assignment" id="assignment-dropdown">
+                            <!-- Add your assignment options here -->
+                            <option value="assignment1">Search Assignments</option>
+                            <!-- ... -->
+                        </select>
+                    </div>
+
+                    <!-- Apply Button -->
+                    <div class="mb-3">
+                        <button><i class="fa fa-filter"></i> Apply Filters</button>
+                    </div>
+
+                    <!-- Table Section -->
+                    <table class="table table-bordered">
+                        <!-- Table Headers -->
+                        <tr>
+                            <th>Student Name</th>
+                            <th>A1 SETUP Out of 100</th>
+                            <th>A2 HTML Out of 100</th>
+                            <th>A3 CSS Out of 100</th>
+                            <th>A4 BOOTSTRAP Out of 100</th>
+                        </tr>
+                        
+                        <tr>
+                            <td class="name">Doxa Asibey</td>
+                            <td>100%</td>
+                            <td class="light-blue">100%</td>
+                            <td class="light-blue">89.59%</td>
+                            <td>98.65%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Thuy Tien Bui</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>91.5%</td>
+                            <td>100%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Yetong Chen</td>
+                            <td>100%</td>
+                            <td class="light-blue">97%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Zhenyu Chen</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>98.64%</td>
+                            <td>100%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Yung-Shin Chien</td>
+                            <td>100%</td>
+                            <td class="light-blue">100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Basil Coughlan</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>99.32%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Rachel Dao</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Lana Do</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Kartikey Dwivedi</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                        </tr>
+
+                        <tr>
+                            <td class="name">Jiarong Feng</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td class="light-blue">94.24%</td>
+                            <td>100%</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Saurabh Sunil Grade</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                        </tr>                      
+                        
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="../../index1.css" rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
+    <link href="../../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="../../../vendors/fontawesome/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Left navigation -->
+        <nav id="kanbas-navigation">
+            <ul class="wd-kanbas-navigator"> 
+                <!-- Navigation -->
+                <li id="nav-header"><i class="fab fa-neos"></i></li>                     
+                <li><a href="../Account/Profile/index.html"><i class="fa fa-user-circle"></i> Account</a></li>
+                <li><a href="../../Dashboard/dashboard.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="../../Courses/Home/home.html" class="selected"><i class="fa fa-book"></i>Courses</a></li>
+                <li><a href="#"><i class="fas fa-calendar-alt"></i>Calendar</a></li>
+                <li><a href="#"><i class="fas fa-envelope-open-text"></i>Inbox</a></li>
+                <li><a href="#"><i class="fa fa-clock"></i>History</a></li>
+                <li><a href="#"><i class="fas fa-desktop"></i>Studio</a></li>
+                <li><a href="#"><i class="fa fa-arrow-right"></i>Commons</a></li>
+                <li><a href="#"><i class="fa fa-question-circle"></i>Help</a></li>
+            </ul>
+        </nav>
+        <!-- Right content -->
+        <div class="right-content">
+            <div id="breadcrumbs" class="breadcrumbs-content">
+                <!-- Breadcrumbs content -->
+                <i class="fas fa-bars red-icon"></i>
+                <p class="course-code">CS5610.11744.202310</p>
+                <i class="fas fa-chevron-right arrow-icon"></i>
+                <p>Modules</p>
+                <hr class="breadcrumb-hr">            
+            </div>
+            <div class="lower-content">
+                <nav id="account-navigation">
+                    <ul>
+                        <li><a href="../../Courses/Home/home.html">Home</a></li>
+                        <li><a href="#" class="active">Modules</a></li>
+                        <li><a href="#">Piazza</a></li>
+                        <li><a href="#">Zoom Meetings</a></li>
+                        <li><a href="../../Courses/Assignments/index.html">Assignments</a></li>
+                        <li><a href="#">Quizzes</a></li>
+                        <li><a href="../../Courses/Grades/grades.html">Grades</a></li>
+                        <li><a href="#">People</a></li>
+                        <li><a href="#">Panopto Video</a></li>
+                        <li><a href="#">Discussions</a></li>
+                        <li><a href="#">Announcements</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Files</a></li>
+                        <li><a href="#">Rubrics</a></li>
+                        <li><a href="#">Outcomes</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Syllabus</a></li>
+                        <li><a href="../../Courses/Settings/courseDetail.html">Settings</a></li>
+                    </ul>
+                </nav>
+
+                <div class="row w-100 me-4">
+                    <div class="col-9">
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-outline-secondary btn-sm"> Collapse All </button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm mx-1">View Progress
+                            </button>
+                            <div class="dropdown">
+                                <button
+                                    class="btn btn-outline-secondary dropdown-toggle btn-sm d-flex align-items-center"
+                                    type="button"
+                                    id="action-menu"
+                                    aria-expanded="false">
+                                    <i class="fa-regular fa-circle-check text-green"></i>
+                                    <span>Publish All</span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="action-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Publish All</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button type="button" class="btn btn-sm btn-outline-danger mx-1" id="moduleBtn">
+                                <span class="ms-1"> + Module</span>
+                            </button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary mx-1" id="dotsBtn">
+                                <i class="fas fa-ellipsis-v"></i>
+                            </button>
+                            
+                        </div>
+                        <hr />
+                        <div>
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-custom">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <i class="fas fa-sort-down"></i>
+                                            <div class="ms-2 font-bold">WEEK 0 - INTRO</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-sort-down"></i>
+                                            <i class="fas fa-plus"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+
+                                        </div>
+                                    </div>
+                                </li>
+                
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 font-bold">LEARNING OBJECTIVES</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 ps-5 font-smaller">Introduction to the course</div>
+
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>                         
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 ps-5 font-smaller">Learn what is web development</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 ps-5 font-smaller">Creating a development environment</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 ps-5 font-smaller">Creating a Web Application</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 ps-5 font-smaller">Getting started with the 1st assignment</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 font-bold">READING</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                                    
+
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 ps-5 font-smaller">Full Stack Developer - Chapter 1 - Introduction</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 ps-5 font-smaller">Full Stack Developer - Chapter 2 - Creating User<br>Interfaces with HTML</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <div class="ms-2 font-bold">SLIDES</div>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                                    
+
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <i class="fas fa-link i-green"></i> 
+                                            <div class="ms-2 ps-5 font-smaller text-red">Introduction to Web Development</div> 
+                                            <i class="fas fa-external-link-alt text-red"></i> 
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <i class="fas fa-link i-green"></i>  
+                                            <div class="ms-2 ps-5 font-smaller text-red">Creating an HTTP server with Node.js</div> 
+                                            <i class="fas fa-external-link-alt text-red"></i> 
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                            <i class="fas fa-link i-green"></i> 
+                                            <div class="ms-2 ps-5 font-smaller text-red">Creating a React Application</div>  
+                                            <i class="fas fa-external-link-alt text-red"></i> 
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-check-circle i-green"></i>
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                            </div>
+                            <div class="col-3">
+                            <div>Course Status</div>
+                            <div class="d-flex justify-content-between">
+                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                    <i class="far fa-times-circle"></i>
+                                    <span>Unpublish</span>
+                                </button>
+                                <button type="button" class="btn btn-success btn-sm ms-2 disabled" >
+                                    <i class="fas fa-check-circle me-2"></i>Published
+                                </button>
+                            </div>
+                            <button
+                                type="button"
+                                class="btn btn-outline-secondary w-100 mt-3 text-start btn-sm">
+                                <i class="fa fa-external-link-alt"></i>
+                                <span>Import Contact</span>
+                            </button>
+                            <button
+                                type="button"
+                                class="btn btn-outline-secondary w-100 mt-1 text-start btn-sm">
+                                <i class="fa fa-file-import"></i>
+                                <span>Import Commons</span>
+                            </button>
+                            <button
+                                type="button"
+                                class="btn btn-outline-secondary w-100 mt-1 text-start btn-sm">
+                                <i class="fa fa-life-ring"></i>
+                                <span>Choose Home Page</span>
+                            </button>
+                            <button
+                                type="button"
+                                class="btn btn-outline-secondary w-100 mt-1 text-start btn-sm">
+                                <i class="far fa-chart-bar"></i>
+                                <span>View Course Stream</span>
+                            </button>
+                            <button
+                                type="button"
+                                class="btn btn-outline-secondary w-100 mt-1 text-start btn-sm">
+                                <i class="fa fa-bullhorn"></i>
+                                <span>New Announcement</span>
+                            </button>
+                            <button
+                                type="button"
+                                class="btn btn-outline-secondary w-100 mt-1 text-start btn-sm">
+                                <i class="far fa-chart-bar"></i>
+                                <span>New Analytics</span>
+                            </button>
+                            <button
+                                type="button"
+                                class="btn btn-outline-secondary w-100 mt-1 text-start btn-sm">
+                                <i class="far fa-bell"></i>
+                                <span>View Notifications</span>
+                            </button>
+
+                            <div class="mt-3">
+                                <div> To do</div>
+                                <hr class="my-1" />
+                                <div class="d-flex align-items-baseline">
+                                    <div class="text-light"></div>
+                                    <div class="ms-2">
+                                        <div class="grade-title">
+                                            Grade A1 - ENV + HTML
+                                        </div>
+                                        <div class="point-time">
+                                            100 points · Sep 18 at 11:59pm
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div class="coming-up">
+                                        Coming Up
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="far fa-calendar-alt"></i>
+                                        <span class="view-calendar">
+                                            View Calendar
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr class="mt-1 mb-2" />
+                                <div class="d-flex align-items-baseline">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <div class="ms-2">
+                                        <div class="lecture-title">
+                                            Lecture
+                                        </div>
+                                        <div class="lecture-info">
+                                            CS4550.12631.202410
+                                        </div>
+                                        <div class="lecture-time">
+                                            Sep 11 at 11:45am
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-baseline mt-3">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <div class="ms-2">
+                                        <div class="lecture-title">
+                                            CS5610 06 SP23 Lecture
+                                        </div>
+                                        <div class="lecture-info">
+                                            CS4550.12631.202410
+                                        </div>
+                                        <div class="lecture-time">
+                                            Sep 11 at 6pm
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <div class="ms-2">
+                                        <div class="lecture-title">
+                                            CS5610 Web Development
+                                        </div>
+                                        <div class="lecture-info">
+                                            CS4550.12631.202410
+                                        </div>
+                                        <div class="lecture-time">
+                                            Sep 11 at 7pm
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-baseline mt-3">
+                                    <div class="more-tasks">
+                                        12 more in the next week...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

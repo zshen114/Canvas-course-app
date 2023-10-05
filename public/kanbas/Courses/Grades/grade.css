@@ -1,0 +1,82 @@
+/* 使姓名和第一列标题文字为红色 */
+.name {
+    color: rgb(190, 20, 20);
+}
+
+/* 使第一列文字左对齐 */
+td:first-child {
+    text-align: left;
+}
+
+/* 使其他列文字居中对齐 */
+td:not(:first-child), th:not(:first-child) {
+    text-align: center;
+}
+
+/* 使每隔一行的背景色为浅灰色 */
+tr:nth-child(odd) {
+    background-color: #f2f2f2; 
+}
+
+
+
+/* 新增的 CSS */
+.filter-section {
+    justify-content: flex-end;
+}
+
+/* 使表头居中，你可以根据需求修改这个值 */
+th {
+    text-align: center;
+}
+
+
+/* 使标题左对齐 */
+h5 {
+    margin-bottom: 0;
+}
+
+/* 针对上方选择的样式 */
+.select-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.select-left {
+    flex-basis: 50%;
+}
+
+.select-right {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+/* 使下拉菜单宽度一致并左对齐 */
+select {
+    width: 100%;
+}
+
+.light-blue {
+    background-color: rgb(154, 208, 226) !important;
+} 
+
+.filter-section > div {
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+
+.assignment-container {
+    width: 50%; /* Adjust this value according to your needs */
+}
+
+#student-dropdown {
+    width: 620px;  /* Or whatever width you prefer */
+}
+
+
+
+
+

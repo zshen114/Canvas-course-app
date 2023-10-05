@@ -1,0 +1,68 @@
+
+/* Left and Right Icons Alignment */
+.assignment-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Green Check Icon */
+.green-icon {
+    color: green;
+}
+
+.right-content .fas {
+    margin-right: 15px; /* 调整右边的间距 */
+}
+
+
+.table td {
+    padding: 5px;
+}
+
+.assignment-content h6, 
+.assignment-content p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-content {
+    text-align: left;
+    padding-left: 10px; /* Optional: add some space between the icon and the text */
+}
+
+.assignment-content {
+    display: flex;
+    align-items: center;
+}
+
+.text-content {
+    flex-grow: 1; 
+    text-align: left;
+    padding-left: 10px;
+}
+
+.left-icons i,
+.right-icons i {
+    margin: 10px;
+}
+
+
+.green-border td:first-child {
+    border-left: 5px solid green;
+}
+
+.assignment-button {
+    background-color: rgb(190, 20, 20);
+    color: white;
+}
+
+table p {
+    font-size: 15px; 
+}
+
+.student-view {
+    margin-left: 476px; 
+
+}

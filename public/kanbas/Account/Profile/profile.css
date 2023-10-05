@@ -1,0 +1,57 @@
+.link-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label-row, 
+.input-row {
+    display: flex;
+    gap: 20px; 
+}
+
+.input-row input {
+    flex-grow: 1; 
+}
+
+button {
+    margin-top: 10px;
+}
+
+
+.link-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label-row, 
+.input-row {
+    display: flex;
+    gap: 20px; 
+    align-items: center; 
+}
+
+.label-row {
+    justify-content: space-between; 
+    width: calc(100% - 20px); 
+}
+
+
+
+.input-row i {
+    margin: 0 10px; 
+}
+
+button {
+    margin-top: 10px;
+}
+
+
+.url-label {
+    margin-right: 200px;  
+}
+
+.no-underline {
+    text-decoration: none;
+}
