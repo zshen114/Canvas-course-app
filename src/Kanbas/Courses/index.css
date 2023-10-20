@@ -1,0 +1,107 @@
+.courses .kanbas-navigation-toggle {
+  margin: 20px 20px 10px 20px;
+  min-height: 4.5rem;
+}
+
+.courses .kanbas-navigation-toggle-bars {
+  color: rgb(197, 27, 27);
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.courses .kanbas-navigation-toggle-breadcrumb {
+  --bs-breadcrumb-divider: '>';
+}
+
+.courses .kanbas-navigation-toggle-breadcrumb .breadcrumb {
+  --bs-breadcrumb-margin-bottom: 0rem !important;
+}
+
+.courses .kanbas-navigation-toggle-breadcrumb .breadcrumb-item a {
+  color: rgb(197, 27, 27) !important;
+  text-decoration: none;
+}
+
+.courses .icon-margin-small {
+  margin-right: 5px;
+}
+
+.courses .icon-margin-big {
+  margin-right: 10px;
+}
+
+.courses .kanbas-navigation-toggle-narrow {
+  display: none !important;
+  background-color: black;
+  height: 90px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.courses .kanbas-navigation-toggle-bars-narrow {
+  color: white;
+  font-size: 24px;
+}
+
+.courses .kanbas-navigation-toggle-narrow-title {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+.courses .kanbas-navigation-toggle-narrow-title a {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.courses .kanbas-navigation-toggle-icon-narrow {
+  color: white;
+}
+
+@media screen and (max-width: 990px) {
+  .home-resizing .kanbas-navigation-toggle-narrow {
+      display: flex !important;
+  }
+
+  .home-resizing .kanbas-navigation-toggle {
+      display: none;
+  }
+
+  .home-resizing .course-navigation {
+      display: none;
+  }
+}
+
+.courses .hide-assignments {
+  display: none;
+}
+
+.home-chevron .kanbas-navigation-toggle {
+  display: none;
+}
+
+.home-chevron .course-navigation {
+  display: none;
+}
+
+.home-chevron .kanbas-navigation-toggle-narrow {
+  display: flex !important;
+}
+
+.home-chevron .kanbas-navigation-toggle-narrow .home-chevron-icon {
+  display: none;
+}
+
+.home-resizing .home-chevron-x-icon {
+  display: none;
+}
+
+.home-bars .kanbas-navigation-toggle {
+  display: none;
+}
+
+.home-bars .course-navigation {
+  display: none;
+}

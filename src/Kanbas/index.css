@@ -1,0 +1,25 @@
+.kanbas-app {
+    display: block;
+}
+
+.kanbas-app .kanbas-layout-wrapper {
+    margin-left: 85px;
+}
+
+@media screen and (max-width: 990px) {
+    .kanbas-app .home-hidden-kanbas-navigation-side-bar {
+        display: none !important;
+    }
+
+    .kanbas-app .home-hidden-kanbas-layout-wrapper {
+        margin: 0 !important;
+    }
+}
+
+.kanbas-app .chevron-bars-hidden-kanbas-navigation-side-bar {
+    display: none !important;
+}
+
+.kanbas-app .chevron-bars-hidden-kanbas-layout-wrapper {
+    margin: 0 !important;
+}

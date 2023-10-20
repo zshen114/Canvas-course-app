@@ -1,0 +1,26 @@
+.module-list .courses-home-module-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.module-list ul {
+    margin-bottom: 20px;
+}
+
+.module-list .icon-margin {
+    margin-right: 14px;
+}
+
+.module-list .icon-margin-small {
+    margin-right: 4px;
+}
+
+
+.list-group {
+    margin-bottom: 50px !important; 
+  }
+  
+.list-group-item {
+    padding: 11px !important; ;
+}

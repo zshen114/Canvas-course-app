@@ -1,0 +1,63 @@
+.assignments {
+    padding: 0 24px;
+    float: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.assignments .assignments-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.assignments .assignments-button {
+    margin: 2px;
+    border-radius: 3px !important;
+}
+
+.assignments .assignment-list {
+    margin: 10px;
+}
+
+.assignment-list .list-group-item:first-child {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.assignment-list .list-group-item:last-child {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.assignment-list .courses-assignment-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.assignment-list .icon-margin {
+    margin-right: 14px;
+}
+
+.assignment-list .icon-margin-small {
+    margin-right: 4px;
+}
+
+.assignment-list .assignments-text {
+    font-weight: bold;
+}
+
+.assignment-list .assignment-title a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.assignment-list .assignments-title-total {
+    border: 1px rgb(198, 192, 192) solid !important;
+}
+
+.assignment-list .courses-assignments-list-item-green-border {
+    border-left: 4px solid green;
+}

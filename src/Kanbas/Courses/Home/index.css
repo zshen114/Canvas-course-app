@@ -1,0 +1,28 @@
+.home {
+    padding: 0 24px 0 0;
+    float: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.home .home-main-content-left-side {
+    width: 75%;
+}
+
+.home .home-main-content-right-side {
+    width: 25%;
+}
+
+@media screen and (max-width: 1200px) {
+    .home {
+        padding: 0; 
+    }
+    .home .home-main-content-right-side {
+        display: none;
+    }
+
+    .home .home-main-content-left-side {
+        width: 100%;
+    }
+}

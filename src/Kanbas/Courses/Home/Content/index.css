@@ -1,0 +1,80 @@
+.content {
+    width: 100%;
+}
+
+.content .courses-home-main-content-right-side-btn-group {
+    margin-bottom: 20px !important;
+}
+
+.content .courses-home-main-content-right-side-btn-group-button {
+    border-radius: 3px !important;
+}
+
+.content .courses-home-main-content-right-side-btn {
+    margin: 2px 0;
+    width: 100%;
+    text-align: left !important;
+    border-radius: 3px !important;
+}
+
+.content .courses-home-main-content-right-side-title {
+    margin-bottom: -10px;
+    margin-top: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.content .courses-home-main-content-right-side-todo-list-item {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+.content .courses-home-main-content-right-side-todo-list-item-description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+.content .courses-home-main-content-right-side-todo-list-item-description a {
+    color: rgb(192, 28, 28);
+}
+
+.content .fa-todo-yes {
+    font-size: 12px;
+}
+
+.content .fa-todo-x {
+    font-size: 10px;
+}
+
+.content .courses-home-main-content-right-side-coming-up-title-item {
+    margin-top: -10px;
+}
+
+.content .courses-home-main-content-right-side-coming-up-title-item a {
+    color:  rgb(192, 28, 28);
+    font-size: small;
+    font-weight: normal;
+}
+
+.content .courses-home-main-content-right-side-coming-up-list-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.content .courses-home-main-content-right-side-coming-up-list-item a {
+    color:  rgb(192, 28, 28);
+}
+
+
+.content .courses-home-main-content-right-side-coming-up-list-item-description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}

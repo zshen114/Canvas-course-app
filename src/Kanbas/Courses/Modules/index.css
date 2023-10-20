@@ -1,0 +1,29 @@
+.modules {
+    padding: 0 24px;
+    float: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.modules .courses-home-module-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: left;
+}
+
+.modules .courses-home-module-button {
+    margin: 2px;
+    border-radius: 3px !important;
+}
+
+.modules .circle-check-icon {
+    color: green;
+    margin-right: 5px;
+}
+
+.modules .courses-home-module-lists {
+    margin: 25px 10px;
+}

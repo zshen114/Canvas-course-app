@@ -1,0 +1,48 @@
+.kanbas-navigation-side-bar {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  width: 85px;
+  z-index: 100;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+}
+
+.kanbas-navigation-side-bar .list-group {
+  width: 85px;
+  border-radius: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.kanbas-navigation-side-bar .list-group-item {
+  background-color: black !important;
+  color: white !important;
+  border-width: 0 !important;
+  border-color: transparent !important;
+  padding: 6px 0 !important;
+  text-align: center !important;
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.kanbas-navigation-side-bar .list-group-item.active {
+  background-color: white !important;
+  color: rgb(175, 14, 14)!important;
+  border-width: 0 !important; 
+  border-color: transparent !important;
+  padding: 6px 0 !important;
+  text-align: center !important;
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.neos-icon {
+  color: rgb(175, 14, 14);
+  font-size: 50px;
+}

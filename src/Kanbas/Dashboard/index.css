@@ -1,0 +1,31 @@
+.dark-blue .backgroundDiv {
+  background-color: rgb(42, 121, 200);
+  height: 160px;
+}
+
+.dark-blue .card-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(42, 121, 200);
+}
+
+
+.card {
+  width: 270px;
+  margin: 15px;
+}
+
+.line2 {
+  font-size: 0.6em;
+}
+
+.card .card-icon {
+  position: absolute;
+  top: 20px; 
+  right: 20px; 
+  font-size: 1.2em;
+  cursor: pointer; 
+  color: white;
+}
+
+
