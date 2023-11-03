@@ -1,20 +1,33 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import db from "../../../Database";
+// import db from "../../../Database";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck, faEllipsisVertical, faPlus, faX } from "@fortawesome/free-solid-svg-icons";
 import "./index.css";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  addAssignment,
+  updateAssignment,
+  setAssignment,
+} from ".././assignmentsReducer";
 
 function AssignmentEditor() {
   const { assignmentId } = useParams();
-  const assignment = db.assignments.find(
-    (assignment) => assignment._id === assignmentId
-  );
+  const assignments = useSelector((state) => state.assignmentsReducer.assignments);
+  const assignment = useSelector((state) => state.assignmentsReducer.assignment);
+  const dispatch = useDispatch();
+
   const { courseId } = useParams();
   const navigate = useNavigate();
+
   const handleSave = () => {
-    console.log("Actually saving assignment TBD in later assignments");
+    const existingAssignment = assignments.find((ass) => ass._id === assignmentId);
+    if (existingAssignment) {
+      dispatch(updateAssignment(assignment));
+    } else {
+      dispatch(addAssignment(assignment));
+    }
     navigate(`/Kanbas/Courses/${courseId}/Assignments`);
   };
 
@@ -33,11 +46,10 @@ function AssignmentEditor() {
           <div className="continer">
             <div className="row p-2">
               <label for="assignment-name-text-field" className="col-12 assignment-title">Assignment Name</label>
-              <input id="assignment-name-text-field" type="text" value={assignment.title} className="form-control col-12" />
+              <input id="assignment-name-text-field" value={assignment.title} className="form-control col-12" onChange={(e) => dispatch(setAssignment({ ...assignment, title: e.target.value }))} />
             </div>
             <div className="row p-2">
-              <textarea className="form-control"
-                rows="4">This assignment describes how to install the development environment for creating and working with a Web application we will be developing this semester. We will add new content every week, pushing the code to a GitHub source repository, and then deploying the content to a remote server hosted on Netlify.</textarea>
+              <input id="assignment-description-text-field" placeholder="Description" value={assignment.description} className="form-control col-12" onChange={(e) => dispatch(setAssignment({ ...assignment, description: e.target.value }))} />
             </div>
             <div className="row p-2">
               <label for="points-text-field"
@@ -80,23 +92,23 @@ function AssignmentEditor() {
                 <div className="row p-2">
                   <div className="assignment-edit-online-entry-text">Online Entry Option</div>
                   <div>
-                    <input type="checkbox" checked id="text-entry" className="checkbox-margin-right"/>
+                    <input type="checkbox" checked id="text-entry" className="checkbox-margin-right" />
                     <label for="text-entry">Text Entry</label>
                   </div>
                   <div>
-                    <input type="checkbox" checked id="website-entry" className="checkbox-margin-right"/>
+                    <input type="checkbox" checked id="website-entry" className="checkbox-margin-right" />
                     <label for="website-entry">Website URL</label>
                   </div>
                   <div>
-                    <input type="checkbox" checked id="media-entry" className="checkbox-margin-right"/>
+                    <input type="checkbox" checked id="media-entry" className="checkbox-margin-right" />
                     <label for="media-entry">Media Recordings</label>
                   </div>
                   <div>
-                    <input type="checkbox" id="student-annotation-entry" className="checkbox-margin-right"/>
+                    <input type="checkbox" id="student-annotation-entry" className="checkbox-margin-right" />
                     <label for="student-annotation-entry">Student Annotation</label>
                   </div>
                   <div>
-                    <input type="checkbox" id="file-entry" className="checkbox-margin-right"/>
+                    <input type="checkbox" id="file-entry" className="checkbox-margin-right" />
                     <label for="file-entry">File Uploads</label>
                   </div>
                 </div>
@@ -107,25 +119,31 @@ function AssignmentEditor() {
               <div className="assignment-edit-content-form submission-type-continar">
                 <div className="row p-2">
                   <label className="assignment-edit-online-entry-text">Assign to</label>
-                  <div className="form-control">Everyone 
-                 
+                  <div className="form-control">
+                    <button type="button" className="btn btn-light">
+                      Everyone
+                      <FontAwesomeIcon icon={faX} className="x-icon" />
+                    </button>
                   </div>
                 </div>
                 <div className="row p-2">
                   <div className="assignment-edit-online-entry-text">Due to</div>
-                  <input className="form-control" type="date" id="text-fields-until"/>
+                  <input className="form-control" type="date" id="text-fields-until" value={assignment.dueDate} 
+                    onChange={(e) => dispatch(setAssignment({ ...assignment, dueDate: e.target.value }))}/>
                 </div>
                 <div className="row p-2">
                   <div className="col-6 assignment-edit-online-entry-text">Available from</div>
                   <div className="col-6 assignment-edit-online-entry-text">Until</div>
                   <input className="form-control assignment-edit-content-half-size-date"
-                    type="date" id="text-fields-until" />
+                    type="date" id="text-fields-until" value={assignment.availableFromDate} 
+                    onChange={(e) => dispatch(setAssignment({ ...assignment, availableFromDate: e.target.value }))}/>
                   <input className="form-control assignment-edit-content-half-size-date"
-                    type="date" id="text-fields-until" />
+                    type="date" id="text-fields-until" value={assignment.availableUntilDate} 
+                    onChange={(e) => dispatch(setAssignment({ ...assignment, availableUntilDate: e.target.value }))}/>
                 </div>
                 <div className="row">
                   <button type="button" className="btn btn-light add-button">
-                  <FontAwesomeIcon icon={faPlus} />
+                    <FontAwesomeIcon icon={faPlus} />
                     Add
                   </button>
                 </div>

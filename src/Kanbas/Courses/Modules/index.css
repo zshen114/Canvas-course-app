@@ -27,3 +27,16 @@
 .modules .courses-home-module-lists {
     margin: 25px 10px;
 }
+
+
+.flex-row-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.input-textarea-same-size {
+    width: 200px;  
+    height: 40px; 
+}
+

@@ -1,0 +1,12 @@
+.delete-confirmation-dialog {
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    border-radius: 5px; 
+    width: 300px; 
+    text-align: center;  
+    z-index: 1001; 
+    position: relative; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  

@@ -55,9 +55,23 @@
 }
 
 .assignment-list .assignments-title-total {
-    border: 1px rgb(198, 192, 192) solid !important;
+    border: 1px rgb(213, 208, 208) solid !important;
 }
 
 .assignment-list .courses-assignments-list-item-green-border {
     border-left: 4px solid green;
+}
+
+.assignments .delete-confirmation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto; 
 }

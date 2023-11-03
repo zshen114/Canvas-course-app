@@ -53,9 +53,6 @@ function Content() {
             100 points Sep 18 at 11:59pm
           </div>
         </div>
-        <div>
-          <FontAwesomeIcon icon={faX} style={{ color: "gray" }} className="fa-todo-x" />
-        </div>
       </div>
       <div className="courses-home-main-content-right-side-title">
         <div>

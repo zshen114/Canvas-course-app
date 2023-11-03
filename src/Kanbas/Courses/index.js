@@ -1,4 +1,4 @@
-import db from "../../Kanbas/Database";
+// import db from "../../Kanbas/Database";
 import { Navigate, Route, Routes, useParams, useLocation } from "react-router-dom";
 import CourseNavigation from "./CourseNavigation";
 import "./index.css";
@@ -13,11 +13,11 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
 
-function Courses() {
+function Courses({ courses }) {
     const { courseId } = useParams();
-    const course = db.courses.find((course) => course._id === courseId);
+    const course = courses.find((course) => course._id === courseId);
     const { pathname } = useLocation();
-    var path = pathname.split('/'); 
+    var path = pathname.split('/'); // Split the string by '/'
     var currentPage = path[path.length - 1];
     var previousPage = path[path.length - 2];
     return (
@@ -25,7 +25,7 @@ function Courses() {
             <div className="kanbas-navigation-toggle">
                 <div className="d-flex justify-content-between">
                     <div className="d-flex">
-                        <FontAwesomeIcon icon={faBars} className="kanbas-navigation-toggle-sidebar align-self-center" />
+                        <FontAwesomeIcon icon={faBars} className="kanbas-navigation-toggle-bars align-self-center" />
                         <nav aria-label="breadcrumb" className="kanbas-navigation-toggle-breadcrumb align-self-center">
                             <ol className="breadcrumb">
                                 <li className="breadcrumb-item">
@@ -52,8 +52,8 @@ function Courses() {
                 <hr />
             </div>
             <div className="kanbas-navigation-toggle-narrow justify-content-between">
-                <Link key={course._id} to={`/Kanbas/Courses/${course._id}/Home/Sidebar`} className="align-self-center" >
-                    <FontAwesomeIcon icon={faBars} className="kanbas-navigation-toggle-sidebar-narrow" />
+                <Link key={course._id} to={`/Kanbas/Courses/${course._id}/Home/Bars`} className="align-self-center" >
+                    <FontAwesomeIcon icon={faBars} className="kanbas-navigation-toggle-bars-narrow" />
                 </Link>
                 <div className="align-self-center kanbas-navigation-toggle-narrow-title">
                     <Link key={course._id} to={`/Kanbas/Courses/${course._id}`} >
@@ -65,7 +65,7 @@ function Courses() {
                 </div>
                 <div className="d-flex flex-row align-self-center">
                     <FontAwesomeIcon icon={faGlasses} className="icon-margin-big align-self-center kanbas-navigation-toggle-icon-narrow" />
-                    <Link key={course._id} to={`/Kanbas/Courses/${course._id}/Home/NavigationMenu`} className="home-chevron-icon" >
+                    <Link key={course._id} to={`/Kanbas/Courses/${course._id}/Home/Chevron`} className="home-chevron-icon" >
                         <FontAwesomeIcon icon={faChevronDown} className="align-self-center kanbas-navigation-toggle-icon-narrow" />
                     </Link>
                     <Link key={course._id} to={`/Kanbas/Courses/${course._id}/Home`} className="home-chevron-x-icon" >

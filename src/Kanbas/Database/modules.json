@@ -1,29 +1,61 @@
 [
   {
     "_id": "M101",
-    "name": "Resources",
+    "name": "Introduction to Rocket Propulsion",
     "description": "Basic principles of rocket propulsion and rocket engines.",
     "course": "RS101"
   },
   {
     "_id": "M102",
-    "name": "Required Textbook",
+    "name": "Fuel and Combustion",
     "description": "Understanding rocket fuel, combustion processes, and efficiency.",
     "course": "RS101"
   },
   {
     "_id": "M103",
-    "name": "Week 0 - INTRO",
-    "description": "Principles of rocket nozzle design and performance optimization.",
+    "name": "Fundamentals of Aerodynamics",
+    "description": "Basic aerodynamic concepts and fluid dynamics principles.",
     "course": "RS101"
   },
 
   {
     "_id": "M104",
-    "name": "Week1 - HTML",
-    "description": "Principles of rocket nozzle design and performance optimization.",
+    "name": "Subsonic and Supersonic Flow",
+    "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
     "course": "RS101"
   },
+
+  {
+    "_id": "M105",
+    "name": "Aerodynamic Heating",
+    "description": "Study of aerodynamic heating and thermal protection systems.",
+    "course": "RS101"
+  },
+
+  {
+    "_id": "M106",
+    "name": "Spacecraft Structural Design",
+    "description": "Fundamentals of designing spacecraft structures and materials selection.",
+    "course": "RS101"
+  },
+
+  {
+    "_id": "M107",
+    "name": "Orbital Mechanics",
+    "description": "Understanding orbital dynamics and mission planning.",
+    "course": "RS101"
+  },
+
+  {
+    "_id": "M108",
+    "name": "Spacecraft Systems Engineering",
+    "description": "Overview of spacecraft systems and subsystems engineering.",
+    "course": "RS101"
+  },
+
+
+
+
 
 
 
