@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://kanbas-node-server-app6-wx5f.onrender.com/:splat"
+  status = 200
+  force = true
