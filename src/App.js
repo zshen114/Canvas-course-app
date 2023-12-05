@@ -9,6 +9,7 @@ import Project from "./project";
 
 
 function App() {
+  console.log('API base URL:', process.env.REACT_APP_BASE_API_URL);
   return (
     <HashRouter>
       <div>
