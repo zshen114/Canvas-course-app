@@ -1,0 +1,35 @@
+.sidebar {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    width: 250px;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.circle {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #b52929;
+}
+
+.todo-content {
+    display: flex;
+    flex-direction: column;
+}

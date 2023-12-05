@@ -1,0 +1,25 @@
+.form-control {
+    margin-bottom: 10px;
+}
+
+.wd-edit-inputs .row {
+    padding-top: 10px;
+}
+
+/* 减少每一行的外边距 */
+.row {
+    margin-bottom: 10px; /* 或者任何适合你布局的值 */
+  }
+  
+  /* 减少列内元素的宽度，使得它们更靠近 */
+  .col input[type="date"],
+  .col .float-end {
+    width: auto; /* 或者是一个较小的百分比值，例如 40% */
+    margin-right: 10px; /* 调整元素之间的距离 */
+  }
+  
+  /* 调整按钮之间的距离 */
+  .btn {
+    margin-right: 10px; /* 按钮之间的间距 */
+  }
+  

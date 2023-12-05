@@ -1,0 +1,171 @@
+.dashboard .kanbas-navigation-toggle h1 {
+    font-weight: 200 !important;
+  }
+  
+  .dashboard .kanbas-navigation-toggle {
+    margin: 20px 20px 20px 20px;
+    min-height: 4.5rem;
+  }
+  
+  .dashboard .dashboard-main-content {
+    margin: 20px 20px 0 30px;
+  }
+  
+  .dashboard .dashboard-main-content h2 {
+    font-weight: 300 !important;
+  }
+  
+  .dashboard-card-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    margin: 0; 
+    justify-content: space-between; 
+}
+
+
+
+  .course-input-row {
+      align-items: center; 
+      display: flex;
+      justify-content: flex-start; 
+      width: 85%;
+  }
+  
+
+
+  .dashboard-card-box .d-flex {
+    justify-content: flex-start; 
+    align-items: stretch; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+  }
+  
+ 
+
+
+.card {
+    width: 300px !important; 
+    height: 300px !important; 
+    margin: 30px !important; 
+}
+
+
+.dashboard-card-box {
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  }
+  
+ 
+
+  .dashboard-card-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+  
+  .col {
+    flex: 0 0 calc(25% - 10px); 
+    margin: 30px;
+    
+}
+
+  
+
+  :root {
+    --solid-blue: rgb(68, 117, 174);
+}
+
+.col {
+    width: 250px !important;
+    height: 250px !important;
+    margin-block: 30px;
+}
+
+.card {
+    width: 100%;
+}
+
+.wd-card-link-no-decoration {
+    text-decoration: none;
+}
+
+.wd-course-img-height-125px {
+    min-height: 125px;
+}
+
+.wd-course-solid-blue {
+    background-color: var(--solid-blue) !important;
+}
+
+/* Button at upper right corner of course-card-img */
+.wd-course-card-img-button-white svg {
+    color: white;
+  
+}
+
+
+.card-title {
+    color: var(--solid-blue) !important;
+}
+
+.card-subtitle,
+.card-text {
+    color: black !important;
+}
+
+.wd-course-card-icon-grey {
+    color: black;
+}
+
+
+.card-body {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* 使内容垂直排列 */
+    justify-content: center; /* 垂直居中内容 */
+}
+
+
+.card-subtitle {
+    color: black !important; 
+    font-size: 1rem; 
+  }
+  
+
+ 
+.card {
+    width: 450px;
+    height: 350px !important; 
+    margin: 1rem; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card .card-img-top {
+    height: 80%; 
+    background-color: var(--solid-blue); 
+}
+
+
+.card .card-body {
+    height: 200%; 
+    padding:0.1rem; 
+}
+
+.card .card-img-top {
+    height: 200%; 
+    background-color: var(--solid-blue); 
+}
+
+
+
+.col {
+    flex: 0 0 calc(25% - 10px); 
+    margin-right: 10px; 
+    margin-bottom: 100px; 
+}
+
+  

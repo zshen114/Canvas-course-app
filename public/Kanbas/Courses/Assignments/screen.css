@@ -1,0 +1,23 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.list-group-item {
+    position: relative; /* to help with absolute positioning of icons */
+    margin-top: 10px;
+}
+
+.indented {
+    padding-left: 30px;
+}
+
+.fa-check {
+    color: green;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* You can add more styling as needed */

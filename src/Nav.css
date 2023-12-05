@@ -1,0 +1,26 @@
+/* styles.css 或相应的样式表 */
+
+.nav {
+    background-color: #f7f7f7;  
+    overflow: hidden;
+    padding: 10px 0;  
+}
+
+.nav-link {
+    float: left;
+    display: block;
+    color: #333;    
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;  /* 平滑的颜色转换 */
+}
+
+.nav-link:hover {
+    background-color: #e0e0e0;   /* 悬停时的浅灰色背景 */
+}
+
+.nav-link.active {
+    background-color: #007BFF;  /* 活动链接的蓝色背景 */
+    color: white;   /* 白色字体 */
+}

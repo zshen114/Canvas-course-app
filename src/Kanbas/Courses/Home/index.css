@@ -1,0 +1,31 @@
+.wd-home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wd-no-bullets {
+    list-style-type: none;
+}
+
+.wd-course-status-list{
+    padding-top: 10px;
+}
+
+.wd-home-modules {
+    padding-right: 10px;
+}
+
+.wd-course-status {
+    padding-left: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.module-list-container, .sidebar {
+    flex: 1;
+    padding: 0 10px;  /* Optional: give some spacing */
+}
+

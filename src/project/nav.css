@@ -1,0 +1,13 @@
+.active-link {
+    background-color: rgb(100, 212, 197) !important; 
+}
+
+.list-group {
+    padding-left: 40px; 
+}
+
+.my-table {
+    margin-top: 20px;
+    width: 80%;
+    min-height: 200px; 
+}
